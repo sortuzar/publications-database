@@ -2,16 +2,16 @@
 # Create fictional data frame
 
 publications <- data.frame(author = c("AHERN, K. & DITTMAR, A. K.",
-                                       "Adams and Funk",
-                                       "Adams, Ferreira",
-                                       "Alan et al. (2019)",
-                                       "BAVOĽÁR/OROSOVÁ",
-                                       "berisha et al. 2018",
-                                       "2021",
-                                       "carpenter et al.",
-                                       "Dehejia, Wahba",
-                                       "",
-                                       "Jaccard et al. 2003"),
+                                      "Adams and Funk",
+                                      "Adams, Ferreira",
+                                      "Alan et al. (2019)",
+                                      "BAVOĽÁR/OROSOVÁ",
+                                      "berisha et al. 2018",
+                                      "2021",
+                                      "carpenter et al.",
+                                      "Dehejia, Wahba",
+                                      "",
+                                      "Jaccard et al. 2003"),
                            year = c(2012,
                                      2012,
                                      2009,
@@ -100,4 +100,6 @@ publications <- data.frame(author = c("AHERN, K. & DITTMAR, A. K.",
                                    "  __   10.1080/01621459.1999.10473858   *  e",
                                    "no doi available",
                                    "year-2003-10.4135/9781412984522"))
+
+cat("####Data frame successfully assembled####")
 
