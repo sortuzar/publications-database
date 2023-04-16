@@ -87,19 +87,19 @@ publications <- data.frame(author = c("AHERN, K. & DITTMAR, A. K.",
                                       "management",
                                       "",
                                       "",
-                                      "",
-                                      "NA//"),
+                                      "NA//",
+                                      "Should test Gender x Decision-Making Styles interactions; see also Aiken & West"),
                            doi = c("article 10.1093/qje/qjr049",
-                                   "DOI:10.1287/mnsc.1110.1452",
+                                   "DOI:10.1287/mnsc.1110.1452 add notes       ",
                                    "http://doi.org/10.1016/j.jfineco.2008.10.007",
-                                   "https://doi.org/10.1093/ej/uez050",
-                                   "indexado 10.1017/S1930297500003223",
-                                   "10.11588/jddm.2018.1.43102/WOS",
+                                   "https://doi.org/10.1093/ej/uez050 CHECK INDEXATION",
+                                   "indexado 10.1017/S1930297500003223   ",
+                                   NA,
                                    "WOS paper 10.1016/j.jdeveco.2020.102599",
                                    "10.1016/J.JM.2004.06.001/WOS:",
                                    "  __   10.1080/01621459.1999.10473858   *  e",
                                    "no doi available",
-                                   "year-2003-10.4135/9781412984522"))
+                                   "year-2003-10.4135/9781412984522       "))
 
 cat("####Data frame successfully assembled####")
 
