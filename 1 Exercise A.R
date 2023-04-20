@@ -4,7 +4,6 @@ rm(list=ls())
 
 # Librerías
 library(tidyverse)
-library(openalexR)
 library(rcrossref)
 
 # Determinar ubicación de las carpetas
