@@ -8,11 +8,8 @@ library(openalexR)
 library(rcrossref)
 
 # Determinar ubicación de las carpetas
-folder <- "D:/GitHub/publications-database/"
-
-directory_code <- paste0(folder,"code/")
-directory_data <- paste0(folder,"data/")
-directory_output <- paste0(folder,"output/")
+directory_data <- "data/"
+directory_output <- "output/"
 
 # 1: Importar datos
 source(paste0(directory_data,"99a Create fictional data frame.R"))
@@ -136,9 +133,11 @@ table(publications7$available_crossref,exclude=NULL)
 
 View(publications7)
 
-# Así recuperamos la información de CrossRef para todas las filas que tenían un DOI
+cat("####ANALISIS COMPLETO####")
+
+cat("# Así recuperamos la información de CrossRef para todas las filas que tenían un DOI
 # y además pudimos conservar las notas y los identificadores del data frame original,
-# de modo de saber cuáles textos de nuestros registros no cuentan con un identificador
+# de modo de saber cuáles textos de nuestros registros no cuentan con un identificador")
 
 # 8: Guardar base de datos
 saveRDS(publications7,paste0(directory_output,"1 Data Retrieved from CrossRef.rds"))
