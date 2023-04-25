@@ -6,6 +6,7 @@ rm(list=ls())
 
 # Librerías
 library(tidyverse)
+library(skimr)
 
 # Determinar ubicación de las carpetas
 directory_data <- "data/"
@@ -13,6 +14,9 @@ directory_output <- "output/"
 
 # Importar datos
 publications <- readRDS(paste0(directory_output,"2 Data Retrieved from OpenAlex.rds"))
+
+# Check data with SkimR
+skim(publications)
 
 # Ideas
 # 1: Check subjects (CrossRef)
